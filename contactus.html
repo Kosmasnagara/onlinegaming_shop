@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="body.css">
+	<title>Contact Us - Sonic Gaming</title>
+	<style type="text/css">
+		#nav-link p{
+			display: inline;
+		}
+
+		#nav-link a {
+			text-decoration: none;
+		}
+
+		#nav-link a:hover {
+			color: blue;
+		}
+
+		#contact-wrap {
+			padding-right: 10%;
+			padding-left: 10%;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+	<div class="w3-row" id="contact-wrap">
+		<div class="w3-row w3-container" id="nav-link" style="width: 100%">
+			<p><a href="index.html">Home</a></p>
+			<i class="fas fa-angle-right"></i>
+			<p>Contact Us</p>
+		</div>
+		<div class="w3-half w3-panel" id="form-message">
+			<form>
+				<h2>Leave us a Message</h2>
+				<p>
+					<label>Your Name (required)</label>
+					<input class="w3-input w3-border w3-round-xxlarge" name="nama" type="text" required="test">
+				</p>
+				<p>
+					<label>Your Email (required)</label>
+					<input class="w3-input w3-border w3-round-xxlarge" name="mail" type="email" required="test">
+				</p>
+				<p>
+					<label>Subject</label>
+					<input class="w3-input w3-border w3-round-xxlarge" name="subject" type="text" required="test">
+				</p>
+				<p>
+					<label>Your Message</label>
+					<input class="w3-input w3-border w3-round-xxlarge" name="message" type="text" required="test">
+				</p>
+				<button class="w3-button w3-black w3-round-xxlarge">Send</button>
+			</form>
+		</div>
+		<div class="w3-half w3-panel" id="hour">
+			<h2>Hours of Operation</h2>
+			<table>
+				<tr style="font-style:italic;">
+					<td>Monday</td>
+					<td>: 12-6 PM</td>
+				</tr>
+				<tr style="font-style:italic;">
+					<td>Tuesday</td>
+					<td>: 12-6 PM</td>
+				</tr>
+				<tr style="font-style:italic;">
+					<td>Wednesday</td>
+					<td>: 12-6 PM</td>
+				</tr>
+				<tr style="font-style:italic;">
+					<td>Thursday</td>
+					<td>: 12-6 PM</td>
+				</tr>
+				<tr style="font-style:italic;">
+					<td>Friday</td>
+					<td>: 12-6 PM</td>
+				</tr>
+				<tr style="font-style:italic;">
+					<td>Saturday</td>
+					<td>: 12-6 PM</td>
+				</tr>
+				<tr style="font-style:italic;">
+					<td>Sunday</td>
+					<td>: CLOSED</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="w3-row" id="footer-wrap">
+		<div class="w3-half w3-container" id="store">
+			<h3>Our Store</h3>
+			<p>
+				SURABAYA<br>
+				Jl.Klampis Aji 1 T-19<br>
+				Hitechmall, Lt Dasar Blok B.20A<br>
+				BEKASI<br>
+				Grand Galaxy City<br>
+				Jl.Bulevard raya, Ruko RSN 3 no.18, Jaka Setia 
+			</p>
+		</div>
+		<div class="w3-half w3-container" id="cus-care">
+			<h3>Customer Care</h3>
+			<p><a href="contactus.html">Customer Care</a></p>
+			<p><a href="faq.html">FAQs</a></p>
+			<p><a href="delivery.html">Delivery</a></p>
+			<p><a href="privacy.html">Privacy Policy</a></p>
+			<p><a href="term.html">Term of Service</a></p>
+		</div>
+		<div class="w3-col w3-container" id="sosmed" style="width: 100%">
+			<a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+			<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+		</div>
+	</div>
+	<div class="w3-col" id="copyright" style="width: 100%" align="center">
+		<p class="w3-medium" style="font-weight: bold">Copyright © Sonic Gaming Shop. All Right Reserved.</p>
+	</div>
+</body>
+<script type="text/javascript">
+		// ini script scroll ups
+	// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</html>

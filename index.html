@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
+    <link rel="stylesheet" type="text/css" href="w3.css" />
+    <link rel="stylesheet" type="text/css" href="body.css" />
+    <title></title>
+    <style type="text/css">
+      #content-wrap {
+        padding-right: 10%;
+        padding-left: 10%;
+      }
+
+      #pro-img img {
+        width: 100%;
+      }
+
+      #top-header-right div {
+        display: inline-block;
+      }
+      #box div {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+    <div class="w3-row" id="header-wrap">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contactus.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Product Category</a>
+          <div class="dropdown-content">
+            <a href="headset.html">Headset</a>
+            <a href="keyboard.html">Keyboard</a>
+            <a href="mouse.html">Mouse</a>
+            <a href="mousepad.html">Mousepad</a>
+          </div>
+        </li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="slideshow-container">
+      <h2 align="center">Product Highlight</h2>
+      <div class="mySlides fade" align="center">
+        <img src="images/1.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade" align="center">
+        <img src="images/2.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade" align="center">
+        <img src="images/3.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade" align="center">
+        <img src="images/4.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="w3-row" id="content-wrap">
+      <h2 style="border-bottom: solid 1px">Recent Products</h2>
+      <!-- product 1 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img src="images/mouse/Logitech G300S Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              src="delivery.html"
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">Logitech G300S Gaming Mouse</p>
+          <p style="color: red">Rp 249.000</p>
+        </div>
+      </div>
+      <!-- product 2 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img src="images/mouse/Logitech G103 Gaming Mouse Macro/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              src="delivery.html"
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">Logitech G103 Gaming Mouse Macro</p>
+          <p style="color: red">Rp 289.000</p>
+        </div>
+      </div>
+      <!-- product 3 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img
+              src="images/mouse/Logitech G402 Hyperion Fury Ultra-Fast FPS Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">
+            Logitech G402 Hyperion Fury Ultra-Fast FPS Gaming Mouse
+          </p>
+          <p style="color: red">Rp 499.000</p>
+        </div>
+      </div>
+      <!-- product 4 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img
+              src="images/mouse/Logitech G403 Prodigy Wired Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">
+            Logitech G403 Prodigy Wired Gaming Mouse
+          </p>
+          <p style="color: red">Rp 799.000</p>
+        </div>
+      </div>
+      <h2 style="border-bottom: solid 1px">Best Seller</h2>
+      <!-- product 1 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img src="images/mouse/Logitech G300S Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">Logitech G300S Gaming Mouse</p>
+          <p style="color: red">Rp 249.000</p>
+        </div>
+      </div>
+      <!-- product 2 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img src="images/mouse/Logitech G103 Gaming Mouse Macro/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">Logitech G103 Gaming Mouse Macro</p>
+          <p style="color: red">Rp 289.000</p>
+        </div>
+      </div>
+      <!-- product 3 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img
+              src="images/mouse/Logitech G402 Hyperion Fury Ultra-Fast FPS Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">
+            Logitech G402 Hyperion Fury Ultra-Fast FPS Gaming Mouse
+          </p>
+          <p style="color: red">Rp 499.000</p>
+        </div>
+      </div>
+      <!-- product 4 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img
+              src="images/mouse/Logitech G403 Prodigy Wired Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">
+            Logitech G403 Prodigy Wired Gaming Mouse
+          </p>
+          <p style="color: red">Rp 799.000</p>
+        </div>
+      </div>
+      <h2 style="border-bottom: solid 1px">Sale Products</h2>
+      <!-- product 1 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img src="images/mouse/Logitech G300S Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">Logitech G300S Gaming Mouse</p>
+          <p style="color: red">Rp 249.000</p>
+        </div>
+      </div>
+      <!-- product 2 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img src="images/mouse/Logitech G103 Gaming Mouse Macro/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">Logitech G103 Gaming Mouse Macro</p>
+          <p style="color: red">Rp 289.000</p>
+        </div>
+      </div>
+      <!-- product 3 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img
+              src="images/mouse/Logitech G402 Hyperion Fury Ultra-Fast FPS Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">
+            Logitech G402 Hyperion Fury Ultra-Fast FPS Gaming Mouse
+          </p>
+          <p style="color: red">Rp 499.000</p>
+        </div>
+      </div>
+      <!-- product 4 -->
+      <div class="w3-quarter w3-panel" id="pro-box">
+        <div class="w3-display-container" id="pro-img">
+          <a class="w3-container" href=""
+            ><img
+              src="images/mouse/Logitech G403 Prodigy Wired Gaming Mouse/1.jpg"
+          /></a>
+          <div class="w3-display-middle w3-display-hover">
+            <button
+              type="button"
+              class="w3-blue w3-animate-opacity w3-btn w3-round"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div id="pro-name" align="center">
+          <p style="font-weight: bold">
+            Logitech G403 Prodigy Wired Gaming Mouse
+          </p>
+          <p style="color: red">Rp 799.000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row" id="footer-wrap">
+      <div class="w3-half w3-container" id="store">
+        <h3>Our Store</h3>
+        <p>
+          SURABAYA<br />
+          Jl.Klampis Aji 1 T-19<br />
+          Hitechmall, Lt Dasar Blok B.20A<br />
+          BEKASI<br />
+          Grand Galaxy City<br />
+          Jl.Bulevard raya, Ruko RSN 3 no.18, Jaka Setia
+        </p>
+      </div>
+      <div class="w3-half w3-container" id="cus-care">
+        <h3>Customer Care</h3>
+        <p><a href="contactus.html">Customer Care</a></p>
+        <p><a href="faq.html">FAQs</a></p>
+        <p><a href="delivery.html">Delivery</a></p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p><a href="term.html">Term of Service</a></p>
+      </div>
+      <div class="w3-col w3-container" id="sosmed" style="width: 100%">
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/">
+          <i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </div>
+    </div>
+    <div class="w3-col" id="copyright" style="width: 100%" align="center">
+      <p class="w3-medium" style="font-weight: bold">
+        Copyright © Sonic Gaming Shop. All Right Reserved.
+      </p>
+    </div>
+  </body>
+  <script type="text/javascript">
+    // ini script scroll up
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    // script slideshow
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</html>
